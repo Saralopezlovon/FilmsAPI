@@ -23,6 +23,14 @@ app.get('/film/:title', film.getFilm);
 
 app.post('/', film.getInfoSearch)
 
+//http://localhost:3000/film/create
+
+app.post('/film/create', film.createFilm)
+
+//http://localhost:3000/api/film/update
+
+app.put('/film/update', film.updateFilm)
+
 
 //Listen
 
