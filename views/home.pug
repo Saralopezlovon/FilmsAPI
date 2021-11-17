@@ -1,0 +1,11 @@
+doctype html
+html
+   head
+      title="Buscador películas"
+      link(rel="stylesheet", href="./styles/styleHome.css")
+
+   body    
+    h1 Buscador de #{search}
+    form(action="/" method="POST")
+        input#inputForm(type='text' name='titulo' placeholder='Añade una película' required='')
+        input#btnSearch(type='submit')
