@@ -31,6 +31,10 @@ app.post('/film/create', film.createFilm)
 
 app.put('/film/update', film.updateFilm)
 
+//http://localhost:3000/api/film/delete
+
+app.delete('/film/delete', film.deleteFilm)
+
 
 //Listen
 

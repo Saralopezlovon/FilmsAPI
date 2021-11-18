@@ -56,6 +56,18 @@ const filmApi = {
 
         //{id:"0", message: "Se ha actualizado Titanic"}
 
+    },
+
+    deleteFilm:(req, res)=>{
+
+        res.status(200).send(`Tu pelicula con id ${req.body.id} ha sido borrada`)
+
+        //Simulamos un post con estos datos:
+
+        //{id:"0", message: "Se ha actualizado Titanic"}
+
+
+
     }
 
 
